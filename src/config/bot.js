@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made with ❤️ by Cosmix",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -38,7 +38,7 @@ export const botConfig = {
   commands: {
     // Bot owner user IDs (comma-separated in OWNER_IDS env var).
     // Owners can access owner/admin-level bot commands.
-    owners: process.env.OWNER_IDS?.split(",") || [],
+    owners: process.env.1325833095181635615?.split(",") || [],
 
     // Default wait time between command uses (in seconds).
     defaultCooldown: 3, 
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Overkill",
       // Footer icon URL (null = no icon).
       icon: null,
     },
