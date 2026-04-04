@@ -72,11 +72,6 @@ async function createInitialHelpMenu() {
         }),
     ];
 
-    const embed = createEmbed({ 
-        title: "🤖 TitanBot Help Center",
-        description: "Your all-in-one Discord companion for moderation, economy, fun, and server management.",
-        color: 'primary'
-    });
 
     embed.addFields(
         {
@@ -168,12 +163,12 @@ async function createInitialHelpMenu() {
 
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL("https://discord.gg/QnWNz2dKCE")
+        .setURL("https://discord.gg/6Ysx3AUQ")
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
-        .setLabel("Learn from Touchpoint")
-        .setURL("https://www.youtube.com/@TouchDisc")
+        .setLabel("Cosmic YT")
+        .setURL("https://www.youtube.com/@CosmixOnRoblox")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
